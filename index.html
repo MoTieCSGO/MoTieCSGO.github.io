@@ -1,58 +1,256 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CV</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="page">
-            <div id="identite">
-                <h1>VAUCHER Théo</h1><br>
-                <p>24/06/2000 - 19 ans</p>
-                <p>62 boulevard gambetta</p>
-                <p>08000 Charleville-Mézières</p>
-                <p>06 48 46 61 76 / motiezzzvmt@hotmail.com</p>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vaucher Théo | Portfolio</title>
+    <meta name="description" content="Je m'appelle Théo VAUCHER, Voici mon site web portfolio et CV." />
+    <meta name="author" content="Théo Vaucher" />
+    <meta name="keywords"
+        content="Théo Vaucher, Portfolio, Informatique, Web, page web, HTML, CSS, Full-Stack, Front-End, Back-End, PHP, Wordpress, Laravel, JavaScript, site internet, SEO, Intégration et développement web" />
+    <link rel="icon" type="image/png" href="logo_requin.png" />
+    <!-- Fonts -->
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav id="navigation" class="navigation ">
+            <img src="logo_requin.png" alt="logo" class="button2">
+            <ul id="myLinks">
+
+                <li>
+                    <a href="#propos">À PROPOS</a>
+                </li>
+                <li>
+                    <a href="#parcours">PARCOURS</a>
+                </li>
+                <li>
+                    <a href="#experiences">EXPÉRIENCES</a>
+                </li>
+                <li>
+                    <a href="#competences">COMPÉTENCES</a>
+                </li>
+                <li>
+                    <a href="#portfolio">MES RÉALISATIONS</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+        <div data-spy="scroll" data-target="#navigation" data-offset="0">
+
+            <!-- A Propos -->
+
+            <div id="propos" class="wrapper">
+                <div id="propos_cv">
+                    <h1>A PROPOS DE MOI</h1>
+                    <p>Étudiant a l'Eisine en Licence professionnelles Métiers du numériques : conception, rédaction et
+                        réalisation wen - parcours intégration et webdesign - Charleville Mézières</p>
+                    <h5>Je m'appelle Théo VAUCHER, passionné par le web et le monde de l'informatique en général.</h5>
+                    <h5>Dans ce portfolio que j'ai réalisé, je vais vous présenter mes compétences, mon parcours ainsi
+                        que mes principales réalisations.</h5>
+
+                    <h5>Ce portfolio a pour but de présenter les différents projets sur lesquels j'ai travaillé ces
+                        dernières années. Vous pouvez également visualiser mon CV et le télécharger.</h5>
+                    <h5>Si vous avez une question, ou si vous avez simplement besoin d'un renseignement, vous pouvez me
+                        contacter en cliquant <a href="#contact" id="ici">ici</a>.</h5>
+                    <div id="mon_cv">
+                        <a href="assets/CV_VAUCHER.pdf" target="_blank">Télécharger le CV</a>
+                    </div>
+                </div>
+
+
+                <div class="ma-photo">
+                    <img src="assets/VAUCHER.jpg" alt="photo de Vaucher Théo">
+                </div>
             </div>
-            <div id="formation">
-                <h1>FORMATION</h1>
-                <h2>EiSINe (08000 Charleville-Mézières) :</h2>
-                <h3>2020 - 2021 :</h3> Licence PRO CRRW Parcours Intégration et Webdesign<br>
-                <h2>Lycée Polyvalent Francois Bazin (08000 Charleville-Mézières) :</h2>
-                <h3>2018 - 2020 :</h3> BTS SN(Systèmes Numériques) - Option : Électronique et communications<br><br>
-                <h2>Cité scolaire Alfred KASTLER (55700 stenay) :</h2>
-                <h3>2017 - 2018 :</h3> Terminale S - Option :  ISN – Specialité : SVT<br>
-                <h3>2016 - 2017 :</h3> Première S - Option :  ISN – Specialité : SVT<br>
-                <h3>2015 - 2016 :</h3> Seconde Générale<br>
-                <h2>Collège Jean Mermoz (55110 Dun sur Meuse) :</h2>
-                <h3>2011 - 2015 :</h3> Collège Jean Mermoz<br>
+
+
+            <!-- fin A Propos -->
+
+            <!-- Parcours -->
+
+            <div id="parcours" class="wrapper">
+                <h1>MON PARCOURS</h1>
+                <div class="row">
+                    <div class="Annee">
+                        <p>En cours</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Titulaire Licence pro</h4>
+                        <h5>Eisine Charleville Mézières</h5>
+                        <p>Licence pro : Intégration web</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Annee">
+                        <p>2020</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Technicien Supérieur</h4>
+                        <h5>Lycée Polyvalent Francois Bazin Charleville Mézières</h5>
+                        <p>BTS SN(Systèmes Numériques) - Option : Électronique et communications</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Annee">
+                        <p>2018</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Titulaire Bac S option : SVT</h4>
+                        <h5>Cité scolaire Alfred KASTLER Stenay</h5>
+                        <p>Terminale S option : SVT</p>
+                    </div>
+                </div>
             </div>
-            <div id="competences">
-                <h1>COMPÉTENCES</h1>
-                <h2>Diplômes obtenus : </h2>
-                <h3>2015 :</h3> Brevet - Série Générale - Mention Assez bien<br>
-                <h3>2018 :</h3> Bac Scientifique (Spécialité SVT)<br>
-                <h3>2020 :</h3> BTS SN option b<br>
+
+
+            <!-- fin du Parcours -->
+
+            <!-- Experiences -->
+
+            <div id="experiences" class="wrapper">
+                <h1>MON EXPÉRIENCES</h1>
+                <div class="row">
+                    <div class="Annee">
+                        <p>2019 - 6 semaines</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Stage de technicien</h4>
+                        <h5>ARELIS à Marville</h5>
+                        <p>configuration machine avec le programme interne et modélisation 3D basique</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Annee">
+                        <p>2018 - 3 semaines</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Technicien en conditionnement dans une usine de fromagerie</h4>
+                        <h5>SCHREIBER Cléry le petit</h5>
+                        <p>Conditionnement</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="Annee">
+                        <p>2015 - 1 semaine</p>
+                    </div>
+                    <div class="BulleAnnee">
+                        <h4>Stage d'observation de 3e en Informatique</h4>
+                        <h5>ID-COM à Stenay</h5>
+                        <p>Observation dans le fonctionnement d'une entreprise de ventes d'objets informatique</p>
+                    </div>
+                </div>
             </div>
-            <div id="experiencespro">
-                <h1>EXPÉRIENCES PROFESSIONNELLES</h1>
-                <p><h3>2015 :</h3> Stage d'observation de 3e en Informatique - 1 semaine à ID-COM à Stenay<br>
-                <p><h3>2018 :</h3> Technicien en conditionnement dans une usine de fromagerie – 3 semaine à SCHREIBER à Cléry le petit<br>
-                <p><h3>2019 :</h3> Stage de 5 semaines chez ARELIS dans plusieurs domaines (configuration machine avec le programme interne et modélisation 3D basique)<br>
+
+
+            <!-- fin du Experiences -->
+
+            <!-- Competences -->
+
+            <div id="competences" class="wrapper">
+                <div id="techniques">
+                    <h2>Compétences techniques</h2>
+                    <div id="container-competences">
+                        <div class="tech">HTML</div>
+                        <div class="tech">CSS</div>
+                        <div class="tech">PHP</div>
+                        <div class="tech">MySQL</div>
+                        <div class="tech">JavaScript</div>
+                        <div class="tech">Responsive Design</div>
+                        <div class="tech">Wordpress</div>
+                        <div class="tech">Bootstrap</div>
+                        <div class="tech">Python</div>
+                        <div class="tech">Excel</div>
+                        <div class="tech">Photoshop</div>
+                    </div>
+                </div>
+                <div id="outils">
+                    <div id="container-outils">
+                        <h2>Outils</h2>
+                        <ul>
+                            <li>
+                                <h4>Graphisme :</h4> Illustrator, Photoshop
+                            </li>
+                            <li>
+                                <h4>Système :</h4> Windows
+                            </li>
+                            <li>
+                                <h4>Bureautique :</h4> Excel, Libre office
+                            </li>
+                        </ul>
+                        <h2>Savoir-être</h2>
+                        <ul>
+                            <li>Rigoureux, adaptable, à l’écoute, organisé, Travail d'équipe</li>
+                        </ul>
+                    </div>
+                </div>
+
+
             </div>
-            <div id="langues">
-                <h1>LANGUES</h1>
-                <p><h3>Première langue :</h3> Anglais / Niveau B1<br>
-                <p><h3>Seconde Langue :</h3> Allemand / Niveau B2<br>
+
+
+            <!-- fin de la Competences -->
+
+            <!-- Portfolio -->
+
+            <div id="portfolio">
+                <div class="titre">
+                    <h1>MES RÉALISATIONS</h1>
+                    <h3>Voici quelques exemples de mes réalisations</h3>
+                </div>
+                <div id="réalisations">
+                    <h4>Mon premier logo former à base de cercles :</h4>
+                    <img src="logo_requin.png" alt="logo_requin">
+                    <h4>Galerie photo avec ajout d'image, zoom ainsi que modificateur d'image en php :</h4>
+                    <div class="row">
+                        <img src="Galerie.PNG" alt="Galerie">
+                        <img src="Zoom-Galerie-Avec-Bouton-Modifier-Image-En-PHP.PNG" alt="Zoom Galerie">
+                    </div>
+                </div>
+
             </div>
-            <div id="activitesextra">
-                <h1>ACTIVITÉS EXTRASCOLAIRES</h1>
-                <h3>Centres d'intérêts, passions</h3>
-                <p>Sport :</p>
-                <p>Vélo, Internet, Cinéma, compétition de jeux vidéo en équipes</p>
-                <p>Permis de conduire.</p>
+
+
+            <!-- fin du Portfolio -->
+            <!-- Contact -->
+
+            <div id="contact">
+                <div class="titre">
+                    <h1>CONTACT</h1>
+                    <h3>Voici mes coordonnées :</h3>
+                </div>
+                <div id="email">
+                    <h5>example@example.com</h5>
+                </div>
+                <div id="reaseaux">
+                    <a href="#">Mon Twitter |</a>
+                    <a href="#">Mon Facebook |</a>
+                    <a href="https://www.linkedin.com/in/th%C3%A9o-vaucher-b89640207/">Mon Linkedin</a>
+                </div>
+                <div id="formulaire">
+                    <h5>Formulaire de contact non disponible a ce jour</h5>
+                </div>
+
             </div>
+            <!-- fin du Contact -->
+            <!-- Footer -->
+
+            <footer>
+                <div class="titre">
+                    <a href="CGU.html">Mentions Légales</a>
+                </div>
+            </footer>
+            <!-- fin du Footer -->
+
         </div>
-    </body>
+    </div>
+
+</body>
+
 </html>
